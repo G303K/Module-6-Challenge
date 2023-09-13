@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="assets\styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+        <!-- Container for input and button -->
+        <div id="search-container">
+            <form id="city-form" class="flex-container">
+                <input type="text" id="city-input" placeholder="Enter a city">
+                <button type="submit" class="search-button-next-to-input">Search</button>
+            </form>            
+        </div>        
+    </header>
+    <main>
+        <section id="weather-container" class="flex-container">
+            <div id="current-weather">
+                <!-- Display current weather data here -->
+            </div>
+            <div id="forecast">
+                <!-- Display 5-day forecast data here -->
+            </div>
+        </section>
+    </main>    
+    <aside id="saved-submissions">
+        <!-- Saved submission buttons will be added here -->
+    </aside>
+    <!-- Link to your JavaScript file for functionality -->
+    <script src="assets\script.js"></script>
+</body>
+</html>
+
+
