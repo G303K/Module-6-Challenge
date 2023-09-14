@@ -1,4 +1,4 @@
-# Module 4 Challenge:
+# Module 6 Challenge:
 
 ## Badges
 
