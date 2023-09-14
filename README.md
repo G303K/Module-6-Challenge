@@ -27,6 +27,9 @@ User's will be able to input a city to find information on weather conditions.
 After the search button is clicked the user will be presented with current weather condtions
 for that city and be given a 5-day forecast. 
 
+The cities that the user has input will be saved  below and can be clicked on displaying data pertaining
+to that city.
+
 ## Deployed application
 - https://g303k.github.io/Module-6-Challenge/
 
