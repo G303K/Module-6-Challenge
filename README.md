@@ -28,7 +28,7 @@ After the search button is clicked the user will be presented with current weath
 for that city and be given a 5-day forecast. 
 
 ## Deployed application
-- https://g303k.github.io/Module-4-Challenge/
+- https://g303k.github.io/Module-6-Challenge/
 
 ![demo](https://github.com/G303K/Module-4-Challenge/assets/139593153/950bdd45-28c7-4b57-bd58-a1b105d41010)
 
