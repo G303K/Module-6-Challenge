@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #3498db, #0066cc); /* Blue gradient */
+    background: linear-gradient(to right, #3498db, #0066cc);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -25,47 +25,47 @@ button {
     display: block;
     margin-top: auto;
     padding: 10px 20px;
-    background: linear-gradient(to right, #ffcc29, #ff6600); /* Yellow to orange gradient */
+    background: linear-gradient(to right, #ffcc29, #ff6600); 
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background: linear-gradient(to right, #ff9900, #e65c00); /* Adjusted gradient on hover */
+    background: linear-gradient(to right, #ff9900, #e65c00);
 }
 
 main {
     display: flex;
-    flex-direction: column; /* Stack sections vertically */
-    align-items: center; /* Center content horizontally */
+    flex-direction: column;
+    align-items: center;
     margin: 20px;
 }
 
 /* Flex container for weather sections */
 #weather-container {
     display: flex;
-    flex-direction: column; /* Stack sections vertically */
-    align-items: center; /* Center sections horizontally */
+    flex-direction: column;
+    align-items: center;
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 100%; /* Ensure it takes full width of the container */
+    width: 100%;
 }
 
 /* Weather sections */
 #current-weather, #forecast {
-    width: 100%; /* Let sections take full width of the container */
-    margin-bottom: 20px; /* Add bottom margin for spacing */
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 #search-container {
     display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-    margin-top: 20px; /* Add top margin for spacing */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 /* Add a class for flex layout */
@@ -85,38 +85,38 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ensure the main section takes the full viewport height */
+    height: 100vh; 
 }
 
 /* Flex container for weather sections */
 #weather-container {
     display: flex;
-    flex-direction: column; /* Stack sections vertically */
-    align-items: center; /* Center sections horizontally */
+    flex-direction: column; 
+    align-items: center; 
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 100%; /* Ensure it takes full width of the container */
+    width: 100%;
 }
 
 /* Weather sections */
 #current-weather, #forecast {
-    width: 100%; /* Let sections take full width of the container */
-    margin-bottom: 20px; /* Add bottom margin for spacing */
+    width: 100%; 
+    margin-bottom: 20px;
 }
 
 /* Saved submission buttons */
 #saved-submissions {
-    display: flex; /* Create a horizontal flex container */
-    flex-wrap: wrap; /* Allow buttons to wrap to the next row if needed */
-    justify-content: flex-start; /* Start buttons from the left side */
-    margin-top: 20px; /* Add top margin for spacing */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    margin-top: 20px; 
 }
 
 /* Style for saved submission buttons */
 #saved-submissions button {
-    margin-right: 10px; /* Add right margin for spacing between buttons */
+    margin-right: 10px; 
 }
 

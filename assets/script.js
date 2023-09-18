@@ -92,36 +92,35 @@ function displayForecast(data) {
 // Function to map weather icons to Font Awesome icon classes
 function getWeatherIconClass(iconCode) {
     switch (iconCode) {
-        case '01d': // clear sky (day)
-            return 'fa-sun';
-        case '01n': // clear sky (night)
+        case '01d': 
+        case '01n': 
             return 'fa-moon';
-        case '02d': // few clouds (day)
+        case '02d': 
             return 'fa-cloud-sun';
-        case '02n': // few clouds (night)
+        case '02n': 
             return 'fa-cloud-moon';
-        case '03d': // scattered clouds (day)
-        case '03n': // scattered clouds (night)
+        case '03d': 
+        case '03n': 
             return 'fa-cloud';
-        case '04d': // broken clouds (day)
-        case '04n': // broken clouds (night)
+        case '04d': 
+        case '04n': 
             return 'fa-cloud-sun';
-        case '09d': // shower rain (day)
-        case '09n': // shower rain (night)
-        case '10d': // rain (day)
-        case '10n': // rain (night)
+        case '09d': 
+        case '09n': 
+        case '10d': 
+        case '10n': 
             return 'fa-cloud-showers-heavy';
-        case '11d': // thunderstorm (day)
-        case '11n': // thunderstorm (night)
+        case '11d': 
+        case '11n':
             return 'fa-bolt';
-        case '13d': // snow (day)
-        case '13n': // snow (night)
+        case '13d': 
+        case '13n': 
             return 'fa-snowflake';
-        case '50d': // mist (day)
-        case '50n': // mist (night)
+        case '50d': 
+        case '50n': 
             return 'fa-smog';
         default:
-            return 'fa-question-circle'; // fallback icon
+            return 'fa-question-circle'; 
     }
 }
 
