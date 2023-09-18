@@ -62,11 +62,12 @@ To use, first download the above required applications in [Installation](#instal
 - https://www.youtube.com/watch?v=OE9CMC2gFH0
 
 Classmates:     
-https://github.com/mrsargent00
-https://github.com/benrodriguezmoran
-https://github.com/kylesunman
+* https://github.com/mrsargent00
+* https://github.com/benrodriguezmoran
+* https://github.com/kylesunman
 
-
+Github:
+* https://github.com/sylviaprabudy
 
   ## Questions?
 
