@@ -1,179 +1,115 @@
 /* Reset default margin, padding, and box-sizing for all elements */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Header with a gradient background */
-.header {
-  background: linear-gradient(to bottom, #3498db, #2980b9);
-}
-
-/* Common styles for various elements */
-.h1-container,
-.form-container,
-.search-label,
-.search-input,
-.search-button,
-.search-history-container,
-.past-search,
-.current-weather-container,
-.current-title-container,
-.current-title,
-.current-weather-icon,
-.current-temperature,
-.current-humidity,
-.current-wind-speed,
-.current-uv-index,
-.current-number,
-.favorable,
-.moderate,
-.severe,
-.future-forecast-container,
-.future-forecast-title,
-.future-card-details,
-.future-date,
-.future-icon,
-.future-temp,
-.future-humidity {
-  padding: 0;
-  margin: 0;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-/* Styling for the search input field */
-.search-input {
-  width: 100%;
-  height: 40px;
-  border-color: lightgrey;
-  border-width: thin;
-  padding: 0 15px;
-}
-
-/* Styling for the search button */
-.search-button {
-  padding: 10px 15px;
-/* Reset some default styles */
-body, h1, h2, ul {
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
-
-header {
-    background: linear-gradient(to right, #3498db, #0066cc);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-h1 {
-    font-size: 28px;
-}
-
-/* Style the buttons with a yellow to orange gradient */
-button {
-    display: block;
-    margin-top: auto;
-    padding: 10px 20px;
-    background: linear-gradient(to right, #ffcc29, #ff6600); 
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background: linear-gradient(to right, #ff9900, #e65c00); /* Adjusted gradient on hover */
-}
-
-main {
+    box-sizing: border-box;
+  }
+  
+  /* Header with a gradient background */
+  .header {
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+  }
+  
+  /* Common styles for various elements */
+  .h1-container,
+  .form-container,
+  .search-label,
+  .search-input,
+  .search-button,
+  .search-history-container,
+  .past-search,
+  .current-weather-container,
+  .current-title-container,
+  .current-title,
+  .current-weather-icon,
+  .current-temperature,
+  .current-humidity,
+  .current-wind-speed,
+  .current-uv-index,
+  .current-number,
+  .favorable,
+  .moderate,
+  .severe,
+  .future-forecast-container,
+  .future-forecast-title,
+  .future-card-details,
+  .future-date,
+  .future-icon,
+  .future-temp,
+  .future-humidity {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  /* Styling for the search input field */
+  .search-input {
+    width: 100%;
+    height: 40px;
+    border-color: lightgrey;
+    border-width: thin;
+    padding: 0 15px;
+  }
+  
+  /* Styling for the search button */
+  .search-button {
+    padding: 10px 15px;
+  }
+  
+  /* Styling for past search history entries */
+  .past-search {
+    background-color: white;
+    border: thin solid lightgrey;
+    border-radius: 3px;
+    text-align: left;
+    width: 350px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    color: grey;
+  }
+  
+  /* Styling for the current weather container */
+  .current-weather-container {
+    border: thin solid lightgrey;
+    border-radius: 3px;
+    margin: 20px 0 0 20px;
+    padding: 0 0 12px 0;
+  }
+  
+  /* Styling for the current weather title container */
+  .current-title-container {
     display: flex;
-    flex-direction: column; /* Stack sections vertically */
-    align-items: center; /* Center content horizontally */
-    margin: 20px;
-}
-
-/* Flex container for weather sections */
-#weather-container {
-    display: flex;
-    flex-direction: column; /* Stack sections vertically */
-    align-items: center; /* Center sections horizontally */
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    width: 100%; /* Ensure it takes full width of the container */
-}
-
-/* Weather sections */
-#current-weather, #forecast {
-    width: 100%; /* Let sections take full width of the container */
-    margin-bottom: 20px; /* Add bottom margin for spacing */
-}
-
-#search-container {
-    display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-    margin-top: 20px; /* Add top margin for spacing */
-}
-
-/* Add a class for flex layout */
-.flex-container {
-    display: flex;
-    align-items: center;
-}
-
-/* Add margin to separate input and button */
-#city-input {
-    margin-right: 10px;
-    height: 35px;
-}
-
-/* Center the main section horizontally and vertically */
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Ensure the main section takes the full viewport height */
-}
-
-/* Flex container for weather sections */
-#weather-container {
-    display: flex;
-    flex-direction: column; /* Stack sections vertically */
-    align-items: center; /* Center sections horizontally */
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    width: 100%; /* Ensure it takes full width of the container */
-}
-
-/* Weather sections */
-#current-weather, #forecast {
-    width: 100%; /* Let sections take full width of the container */
-    margin-bottom: 20px; /* Add bottom margin for spacing */
-}
-
-/* Saved submission buttons */
-#saved-submissions {
-    display: flex; /* Create a horizontal flex container */
-    flex-wrap: wrap; /* Allow buttons to wrap to the next row if needed */
-    justify-content: flex-start; /* Start buttons from the left side */
-    margin-top: 20px; /* Add top margin for spacing */
-}
-
-/* Style for saved submission buttons */
-#saved-submissions button {
-    margin-right: 10px; /* Add right margin for spacing between buttons */
-}
-
+  }
+  
+  /* Styling for the current weather title */
+  .current-title {
+    margin: 15px 0 20px 20px;
+    font-size: 40px;
+  }
+  
+  /* Styling for the current weather icon */
+  .current-weather-icon {
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* Styling for current temperature, humidity, and wind speed */
+  .current-temperature,
+  .current-humidity,
+  .current-wind-speed {
+    margin: 15px 20px;
+    font-size: 20px;
+  }
+  
+  /* Styling for the current UV index */
+  .current-uv-index {
+    margin: 0 0 0 20px;
+  }
+  
+  /* Styling for the current UV index number with different classes based on severity */
+  .current-number {
+    color: white;
+    padding: 5px 10px;
+  }
