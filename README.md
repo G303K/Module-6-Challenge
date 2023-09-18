@@ -1,102 +1,76 @@
-# 06 Server-Side APIs: Weather Dashboard
+# Module 6 Challenge:
 
-## Your Task
+## Badges
 
-Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Use the [5 Day Weather Forecast](https://openweathermap.org/forecast5) to retrieve weather data for cities. The base URL should look like the following: `https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}`. After registering for a new API key, you may need to wait up to 2 hours for that API key to activate.
+## Table of Contents
 
-**Hint**: Using the 5 Day Weather Forecast API, you'll notice that you will need to pass in coordinates instead of just a city name. Using the OpenWeatherMap APIs, how could we retrieve geographical coordinates given a city name?
+- [License](#license)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Questions?](#questions)
 
-You will use `localStorage` to store any persistent data. For more information on how to work with the OpenWeather API, refer to the [Full-Stack Blog on how to use API keys](https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys).
+## License
 
-## User Story
+Read more about MIT here:
+[MIT](https://opensource.org/licenses/MIT)
 
-```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
+## Description
 
-## Acceptance Criteria
+This application is a homework assignment for the MSU Coding Bootcamp.
+In this challange we were tasked with creating a weather dashboard with inputs using the openweatherapi. 
 
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-```
+User's will be able to input a city to find information on weather conditions.
 
-## Mock-Up
+After the search button is clicked the user will be presented with current weather condtions
+for that city and be given a 5-day forecast. 
 
-The following image shows the web application's appearance and functionality:
+The cities that the user has input will be saved  below and can be clicked on displaying data pertaining
+to that city.
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/06-server-side-apis-homework-demo.png)
+## Deployed application
+- https://g303k.github.io/Module-6-Challenge/
 
-## Grading Requirements
+![demo](https://github.com/G303K/Module-4-Challenge/assets/139593153/950bdd45-28c7-4b57-bd58-a1b105d41010)
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
 
-This Challenge is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria plus the following:
+## Installation
 
-    * Uses the OpenWeather API to retrieve weather data.
+Required applications:
+- Visual Studio Code: (https://code.visualstudio.com/)
+- Git for MAC/Windows/Linux: (https://git-scm.com/downloads)
 
-    * Uses `localStorage` to store persistent data.
+## Usage
 
-### Deployment: 32%
+To use, first download the above required applications in [Installation](#installation).
 
-* Application deployed at live URL.
+- Clone the repository to your local machine.
+- After cloning the repository, open the directory using Visual Studio Code.
+- To view content used, expand the MODULE-4-CHALLENGE folder. 
 
-* Application loads with no errors.
+## Contributors:
+- Homework code source and instruction: https://git.bootcampcontent.com/Michigan-State-University/MSU-VIRT-FSF-PT-07-2023-U-LOLC
 
-* Application GitHub URL submitted.
+- Homework help: 
 
-* GitHub repository that contains application code.
+- Youtube:
+- https://www.youtube.com/watch?v=QEu8_5bYm-w
+- https://www.youtube.com/watch?v=OE9CMC2gFH0
 
-### Application Quality: 15%
+Classmates:     
+https://github.com/mrsargent00
+https://github.com/benrodriguezmoran
+https://github.com/kylesunman
 
-* Application user experience is intuitive and easy to navigate.
 
-* Application user interface style is clean and polished.
 
-* Application resembles the mock-up functionality provided in the Challenge instructions.
+  ## Questions?
 
-### Repository Quality: 13%
+  ### Reach me here:
 
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+* Github https://github.com/G303K
+* Email: micder18@gmail.com
