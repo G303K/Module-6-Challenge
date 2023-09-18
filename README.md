@@ -57,8 +57,9 @@ To use, first download the above required applications in [Installation](#instal
 
 - Homework help: 
 
-- Youtube: https://www.youtube.com/watch?v=QEu8_5bYm-w
-- Github: https://github.com/jmrendon48
+- Youtube:
+- https://www.youtube.com/watch?v=QEu8_5bYm-w
+- https://www.youtube.com/watch?v=OE9CMC2gFH0
 
 Classmates:     
 https://github.com/mrsargent00
