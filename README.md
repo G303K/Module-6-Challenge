@@ -50,7 +50,7 @@ To use, first download the above required applications in [Installation](#instal
 
 - Clone the repository to your local machine.
 - After cloning the repository, open the directory using Visual Studio Code.
-- To view content used, expand the MODULE-4-CHALLENGE folder. 
+- To view content used, expand the MODULE-6-CHALLENGE folder. 
 
 ## Contributors:
 - Homework code source and instruction: https://git.bootcampcontent.com/Michigan-State-University/MSU-VIRT-FSF-PT-07-2023-U-LOLC
